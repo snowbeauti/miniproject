@@ -1,0 +1,17 @@
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .html
+---
+server:
+  port: 8010
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+
+
